@@ -53,7 +53,7 @@ stages:
             inputs:
                 script: "codeql database create --language=javascript --github-auth-stdin --github-url=https://github.com/ --source-root \checkouts\my-repo db"
 
-        # Analyze CodeQL Database
+        # Analyze CodeQL Database 
         # Analyze a CodeQL database, producing meaningful results in the context of the source code.
         # Run a query suite (or some individual queries) against a CodeQL database, producing results, styled as alerts or paths, in SARIF or another interpreted format.
         # Note that the suite argument can accept one of the pre-compiled, out-of-the-box query suites: code-scanning, security-extended, or security-and-quality
